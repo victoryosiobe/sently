@@ -1,3 +1,4 @@
+/*Do note that this file is under development. You can use it if you can modify some of the wrongly spelt words in the bank 
 function calculateSentiment(text) {
   text = text.trim().toLowerCase()
   text = text.replace(/[^('|’|\-|\+)?\w\s\d?]/g, '') //remoce unnecessary characters
