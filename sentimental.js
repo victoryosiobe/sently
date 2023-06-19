@@ -1,4 +1,3 @@
-/*Do note that this file is under development. You can use it if you can modify some of the wrongly spelt words in the bank 
 function calculateSentiment(text) {
   text = text.trim().toLowerCase()
   text = text.replace(/[^('|’|\-|\+)?\w\s\d?]/g, '') //remoce unnecessary characters
@@ -57,7 +56,7 @@ const sentimentDictionary = {
   bad: -3,
   sad: -4,
   terrible: -5,
-  angrer: -5,
+  anger: -5,
   glad: 4,
   great: 4,
   not: -1,
@@ -90,7 +89,9 @@ const sentimentDictionary = {
   adventure: 3.4,
   brave: 3.4,
   enjoy: 3.6,
-
+  awesome: 4.2,
+  truth: 4.2,
+  lie: -4.3,
 }
 var text = "thank you so much, i like and enjoy the code."
 const sentimentScore = calculateSentiment(text)
